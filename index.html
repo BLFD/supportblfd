@@ -5,15 +5,6 @@
     </head>
     <body>
         <p>You have been on this page for <span id="time">0</span> seconds. Thanks for the support!</p>
-        <script>
-            const element = document.getElementById("time");
-
-            function addTime(){
-                const currentTime = parseInt(element.innerHTML);
-                element.innerHTML = currentTime + 1;
-            }
-
-            setInterval(addTime, 1000);
-        </script>
+        <script src="./counter.js"></script>
     </body>
 </html>
