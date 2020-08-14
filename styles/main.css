@@ -1,7 +1,10 @@
 body {
-  text-align: center;
-  font-size: 35px;
-   font-family: verdana;
-  color: rgb(125, 65, 61);
   background-color: rgb(99, 177, 199);
+}
+
+p {
+  text-align: center;
+  font-size: 45px;
+  font-family: verdana;
+  color: rgb(74, 39, 37);
 }
